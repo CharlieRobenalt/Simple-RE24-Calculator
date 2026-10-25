@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expected Runs Contribution (ERC) Game Report</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 40px auto;
+            max-width: 850px;
+            padding: 0 20px;
+            color: #222;
+            background-color: #f8fafc;
+        }
+        h1 {
+            font-size: 26px;
+            margin-bottom: 6px;
+            color: #0f172a;
+        }
+        p.subtitle {
+            color: #64748b;
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e2e8f0;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+        h2 {
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 16px;
+            color: #1e293b;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th {
+            background-color: #f1f5f9;
+            font-weight: 600;
+            color: #475569;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h1>Run Expectancy (ERC) Post-Game Report</h1>
+    <p class="subtitle">Away (CIN) @ Home (ATL) | Evaluated from <code>GenerateReport.csv</code></p>
+
+    <div class="card">
+        <h2>Team Summary: Actual Runs vs. Expected Runs Added</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Team</th>
+                    <th>Actual Runs</th>
+                    <th>Accumulated ERC</th>
+                    <th>Total PAs</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+    <tr>
+        <td><strong>Away (CIN)</strong></td>
+        <td>4</td>
+        <td>+4.000</td>
+        <td>35</td>
+    </tr>
+    
+    <tr>
+        <td><strong>Home (ATL)</strong></td>
+        <td>3</td>
+        <td>+3.000</td>
+        <td>34</td>
+    </tr>
+    
+            </tbody>
+        </table>
+    </div>
+
+   <div class="grid-2">
+        <div class="card">
+            <h2>Away (CIN) - Top 3 Players</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Total ERC</th>
+                        <th>Runs</th>
+                        <th>PAs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Tj Friedl</td><td><strong>+2.080</strong></td><td>2</td><td>4</td></tr><tr><td>Tyler Stephenson</td><td><strong>+0.710</strong></td><td>1</td><td>4</td></tr><tr><td>Elly De La Cruz</td><td><strong>+0.370</strong></td><td>0</td><td>4</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card">
+            <h2>Home (ATL) - Top 3 Players</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Total ERC</th>
+                        <th>Runs</th>
+                        <th>PAs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Drake Baldwin</td><td><strong>+1.530</strong></td><td>1</td><td>3</td></tr><tr><td>Matt Olson</td><td><strong>+0.740</strong></td><td>1</td><td>4</td></tr><tr><td>Eli White</td><td><strong>+0.010</strong></td><td>0</td><td>3</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Plays of the Game</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Inning</th>
+                    <th>Half</th>
+                    <th>Batter</th>
+                    <th>Event</th>
+                    <th>Runs Scored</th>
+                    <th>ERC Change</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>6</td><td>Bot</td><td>Matt Olson</td><td>single</td><td>1</td><td>+1.350</td></tr><tr><td>1</td><td>Top</td><td>Tj Friedl</td><td>home_run</td><td>1</td><td>+1.000</td></tr><tr><td>3</td><td>Top</td><td>Tj Friedl</td><td>home_run</td><td>1</td><td>+1.000</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+</html>
