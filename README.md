@@ -20,3 +20,17 @@ $$\sum \text{Raw ERC} = \text{Actual Runs} - 0.48 \times (\text{Innings Batted})
 
 Adding $+0.48$ per inning batted adjusts the total expected runs to match actual runs scored on the scoreboard over complete games.
 
+
+## Contents
+
+### Sample Files (WS Game 7 LAD vs TOR)
+* SampleGame.csv - contains the play-by-play log with pre/post states and ERC totals
+* SampleGame.py - contains the python script to generate the play-by-play log in *SampleGame.csv*
+* SampleGameHTML.py - contains the python script that generates the HTML output in *SampleGameReport.html*
+* SampleGameReport.html - contains the rendered post game dashboard, containing total ERC, most impactful players and plays
+
+### Auto Generate Files
+* GenerateReport.csv - contains the play-by-play log for desired game
+* GenerateReport.py - contains the main pipeline, fetching data, storing in *GenerateReport.csv*, and generating html in *GeneratedReport.html*
+* GeneratedReport.html - contains the rendered dashboard for the desired game
+
