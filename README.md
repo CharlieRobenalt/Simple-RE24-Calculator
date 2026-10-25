@@ -8,3 +8,5 @@ A Python tool that pulls MLB play-by-play MLB Statcast data from 'pybaseball', a
 Run Expectancy based on the 24 base-out matrix measures how much a batter's plate appearance altered their team's expected runs. 
 
 $$\text{ERC} = \text{Runs Scored} - \text{RE}_{\text{pre}} + \text{RE}_{\text{post}}$$
+
+$
